@@ -147,6 +147,29 @@ pre
     color: #4d2323;
 }
 
+.footer
+{
+    background-color: #829985;
+}
+
+.footer-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text
+{
+    color: #ffffff;
+}
+
+.footer-img
+{
+    width: 121px;
+    height: 45px;
+}
+
 @media (max-width: 768px)
 {
     .section
