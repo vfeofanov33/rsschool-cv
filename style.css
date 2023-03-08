@@ -68,7 +68,7 @@ body
 .section-title
 {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #829985;
@@ -80,6 +80,8 @@ body
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    border-bottom: 5px solid #829985;
+    padding-bottom: 50px;
 }
 
 .profile-title
@@ -104,8 +106,6 @@ body
 {
     position: relative;
     padding-left: 30px;
-    font-family: 300;
-    
 }
   
 .section-item::before 
@@ -118,6 +118,11 @@ body
     height: 10px; 
     border: 1px solid #829985;
     border-radius: 50%;
+}
+
+.section-span
+{
+    color: #829985;
 }
 
 @media (max-width: 768px)
