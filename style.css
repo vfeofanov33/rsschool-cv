@@ -125,6 +125,16 @@ body
     color: #829985;
 }
 
+pre
+{
+    margin: 0;
+}
+
+.code-title
+{
+    margin-bottom: 0;
+}
+
 @media (max-width: 768px)
 {
     .section
