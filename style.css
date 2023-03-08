@@ -135,6 +135,16 @@ pre
     margin-bottom: 0;
 }
 
+.section-link {
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
+}
+  
+.section-link:hover {
+    color: #5d7260;
+}
+
 @media (max-width: 768px)
 {
     .section
